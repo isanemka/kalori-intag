@@ -1,5 +1,8 @@
-# VS Code settings
-.vscode
+# OS / Editor files
+.DS_Store
+.idea/
+.vscode/
+.fleet/
 
 # Nuxt dev/build outputs
 .output
@@ -11,17 +14,20 @@ dist
 
 # Node dependencies
 node_modules
+package-lock.json
 
 # Logs
 logs
 *.log
 
-# Misc
-.DS_Store
-.fleet
-.idea
-
 # Local env files
 .env
 .env.*
 !.env.example
+
+# Generated CSS files
+public/output.css
+
+# Vercel-specific files
+.vercel
+.vercel/output.log
